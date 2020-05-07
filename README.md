@@ -1,1 +1,1 @@
-# simple_notepad
+http://codenamecrud.ru/basics-of-web-development/project-javascript-and-jquery
