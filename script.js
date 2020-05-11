@@ -18,3 +18,15 @@ function createElement(parent) {
   elem.className = "elem";
   parent.appendChild(elem);
 }
+
+//$('.elem').fadeOut('slow');
+$('.elem').hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+
+
+ /*$(document).ready(function(){  //тест на jquery
+ alert(jQuery.fn.jquery);
+ });
+ */
