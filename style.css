@@ -2,15 +2,32 @@
 #parent {
   display: flex;
   flex-direction: column;
+
 }
 
 .row {
-  height: 27px;
+  height: 25px;
 }
 
 .elem {
   width: 25px;
   height: 25px;
-  border: 1px solid green;
+  outline: 1px solid gray; /* рамка */
+  outline-offset: -1px; /* Выводим рамку внутри элемента */
   display: inline-block;
 }
+
+.elemBlack {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  outline: 1px solid gray; 
+  outline-offset: -1px; 
+  display: inline-block;
+}
+
+.clearButton {
+  width: 100px;
+  height: 25px;
+  border: 1px solid gray;
+  display: inline-block;
